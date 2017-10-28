@@ -1,24 +1,3 @@
-# valid
-1.2.3.4
-192.12.222.78
-252.251.222.3
-255.255.255.0
-249.233.2.1
-
-# invalid
-9.897.99.12
-256.233.89.76
- dog or cat
- dog
- Dog
- Cat
-  [dog]
- cat
-dogcat[.*]
-dogcat
-cat dog
-catdog
-
 Negative look behind:
 
 (?<!spam)@.*
