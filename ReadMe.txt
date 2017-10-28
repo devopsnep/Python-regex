@@ -1,3 +1,9 @@
+eg. if you want to search hellodev
+re.match = looks for the match only at start of string
+    it matches "hellodev this is sample" but NOT "this is hellodev sample" "
+re.search = looks for match anywhere in the string
+    it matches "this is hellodev sample"
+
 Negative look behind:
 
 (?<!spam)@.*
