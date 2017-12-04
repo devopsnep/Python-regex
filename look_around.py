@@ -17,3 +17,7 @@ print(result)
 string='''i love apple, cherry, and berry'''
 result=re.findall(r'(\w+)(?=\.|,)',string)
 print(result)
+
+#string='''this [ramat34gmail] addr [cnep] test'''
+#>>>re.findall(r'(?<=\[)(\w+)(?=\])',string)
+#['ramat34gmail', 'cnep']
